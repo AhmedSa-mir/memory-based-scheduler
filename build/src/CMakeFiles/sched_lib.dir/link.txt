@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsched_lib.a  CMakeFiles/sched_lib.dir/scheduler.cpp.o
-/usr/bin/ranlib libsched_lib.a

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libscheduler.a  CMakeFiles/scheduler.dir/process.cpp.o CMakeFiles/scheduler.dir/sched_process.cpp.o CMakeFiles/scheduler.dir/scheduler.cpp.o
-/usr/bin/ranlib libscheduler.a
