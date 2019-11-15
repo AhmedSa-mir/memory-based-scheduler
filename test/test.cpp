@@ -20,7 +20,7 @@ int main()
 	// fork scheduler process
 	int pid = fork();
 	if (pid == 0) {	// child process 
-		execl("sched_process.out", std::to_string(MEM_BLOCKS).c_str(), (char *)NULL);
+		execl("sched_process", std::to_string(MEM_BLOCKS).c_str(), (char *)NULL);
 	}
 
 	// wait for ready message from scheduler

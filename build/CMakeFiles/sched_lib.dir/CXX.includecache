@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/utils.h
+
+/home/samir/Scheduler/src/scheduler.cpp
+scheduler.h
+/home/samir/Scheduler/src/scheduler.h
+
+/home/samir/Scheduler/src/scheduler.h
+iostream
+-
+queue
+-
+map
+-
+sys/wait.h
+-
+unistd.h
+-
+signal.h
+-
+cstring
+-
+utils.h
+/home/samir/Scheduler/src/utils.h
+

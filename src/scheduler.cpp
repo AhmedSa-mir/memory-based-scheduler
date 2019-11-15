@@ -51,7 +51,7 @@ void Scheduler::runProcess(Process* p)
 {
 	int id = fork();
 	if (id == 0) {	// child process
-		execl("process.out", std::to_string(p->mem_block_).c_str(),
+		execl("process", std::to_string(p->mem_block_).c_str(),
 		 					 std::to_string(p->time_).c_str(),
 		 					 (char *)NULL);
 	}

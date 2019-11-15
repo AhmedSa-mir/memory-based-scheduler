@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsrc/process.cpp.a  CMakeFiles/src/process.cpp.dir/src/sched_process.cpp.o CMakeFiles/src/process.cpp.dir/src/scheduler.cpp.o
+/usr/bin/ranlib libsrc/process.cpp.a

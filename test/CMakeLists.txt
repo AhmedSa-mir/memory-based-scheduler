@@ -1,0 +1,2 @@
+add_executable(test_scheduler test.cpp)
+target_link_libraries(test_scheduler sched_lib)
